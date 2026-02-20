@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         intervalId = null;
     };
 
-    // Pausar al pasar el ratón y reanudar al salir
+    // Pausar al pasar el ratón y reanudar al salir.
     wrapper.addEventListener('mouseenter', stop);
     wrapper.addEventListener('mouseleave', start);
 
